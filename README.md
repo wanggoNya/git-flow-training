@@ -48,6 +48,6 @@ Ex) `git merge --no-ff [branch]
     <br> <br>
 ---
 
-<b> [ reference ] </b> 
+<b> [ reference ] </b> <br>
 release, hotfix, feature에 대한 출처 : 
 [브랜치 관리를 위한 git-flow](https://velog.io/@skawnkk/%EB%B8%8C%EB%9E%9C%EC%B9%98-%EA%B4%80%EB%A6%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-git-flow)
