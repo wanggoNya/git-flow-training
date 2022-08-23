@@ -1,10 +1,16 @@
 # git-flow-training
 
+### 💡  문제 조건
+
+- merge한 branch는 삭제할 것
+- merge 이후에도 git flow가 남도록 merge시 `--no-ff` 옵션을 사용할 것
+- 모든 작업이 끝난 후 graph로 출력 되도록 하고, 예시와 같은 플로우가 되도록 할 것
+
 ### ✔ 최종 git log
 
 ![image](https://user-images.githubusercontent.com/96973332/186093212-b5951ca1-4b3c-4632-ae31-341001b6921f.png)
 
-# release, hotfix, feature에 대한 깨알 지식
+# 💡  release, hotfix, feature에 대한 깨알 지식
 
 ### ✔ release
 
@@ -32,9 +38,15 @@ master에 merge 시 **--no -ff** 를 진행할 것을 추천 (병합을 위한 �
     - **release** : 다음 출시 버젼을 준비하는 브랜치
     - **feature** : 기능 구현 브랜치
     - **hotfix** : master의 내용에서의 버그를 긴급히 수정하는 브랜치
-
+    
+    
+# 💡  --no-ff, ff란?
+- `--no-ff` : 병합 대상 브랜치가 fast-forward 관계인 경우에도 반드시 병합 커밋을 만든다. <br>
+Ex) `git merge --no-ff [branch]
+- <b> fast-forward (-ff) ? </b> <br>
+   두 개의 커밋A와 커밋B가 존재할 때 커밋B의 히스토리에 커밋A의 커밋 히스토리가 포함되어 있을 경우, 커밋 A는 커밋B에 Fast-Forward 한다고 표현한다.
 ---
 
 <b> [ reference ] </b> 
-💡 release, hotfix, feature에 대한 출처 : 
+release, hotfix, feature에 대한 출처 : 
 [브랜치 관리를 위한 git-flow](https://velog.io/@skawnkk/%EB%B8%8C%EB%9E%9C%EC%B9%98-%EA%B4%80%EB%A6%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-git-flow)
